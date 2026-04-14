@@ -1,4 +1,5 @@
 pub mod error;
+pub mod provider;
 
 pub use error::CredentialError;
-// provider and refresh modules will be added in subsequent tasks
+pub use provider::{AwsCredentialProvider, ResolvedCredentials};
