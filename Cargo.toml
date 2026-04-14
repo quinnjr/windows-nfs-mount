@@ -6,6 +6,7 @@ members = [
     "crates/onc-rpc",
     "crates/nfs4-types",
     "crates/nfs4-client",
+    "crates/aws-creds",
 ]
 
 [workspace.package]
@@ -19,3 +20,6 @@ bytes = "1"
 thiserror = "2"
 tokio = { version = "1", features = ["net", "io-util", "sync", "rt", "macros", "time"] }
 proptest = "1"
+aws-config = { version = "1", features = ["behavior-version-latest"] }
+aws-credential-types = { version = "1", features = ["hardcoded-credentials"] }
+aws-types = "1"
