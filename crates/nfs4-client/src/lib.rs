@@ -1,6 +1,7 @@
 pub mod client;
 pub mod compound;
 pub mod error;
+pub mod keepalive;
 pub mod session;
 
 pub use client::Nfs4Client;
