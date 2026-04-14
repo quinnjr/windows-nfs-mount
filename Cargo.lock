@@ -1076,6 +1076,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "nfs-mount"
+version = "0.1.0"
+dependencies = [
+ "bytes",
+ "nfs4-client",
+ "nfs4-types",
+ "onc-rpc",
+ "thiserror",
+ "tokio",
+ "xdr-codec",
+]
+
+[[package]]
 name = "nfs4-client"
 version = "0.1.0"
 dependencies = [
