@@ -1,0 +1,8 @@
+[package]
+name = "nfs4-types"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bytes = { workspace = true }
+xdr-codec = { path = "../xdr-codec" }

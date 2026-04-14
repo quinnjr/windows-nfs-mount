@@ -4,6 +4,8 @@ members = [
     "crates/xdr-derive",
     "crates/xdr-codec",
     "crates/onc-rpc",
+    "crates/nfs4-types",
+    "crates/nfs4-client",
 ]
 
 [workspace.package]

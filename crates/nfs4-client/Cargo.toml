@@ -1,0 +1,15 @@
+[package]
+name = "nfs4-client"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bytes = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+xdr-codec = { path = "../xdr-codec" }
+onc-rpc = { path = "../onc-rpc" }
+nfs4-types = { path = "../nfs4-types" }
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["test-util"] }

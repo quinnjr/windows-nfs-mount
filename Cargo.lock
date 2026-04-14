@@ -193,6 +193,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "nfs4-client"
+version = "0.1.0"
+dependencies = [
+ "bytes",
+ "nfs4-types",
+ "onc-rpc",
+ "thiserror",
+ "tokio",
+ "xdr-codec",
+]
+
+[[package]]
+name = "nfs4-types"
+version = "0.1.0"
+dependencies = [
+ "bytes",
+ "xdr-codec",
+]
+
+[[package]]
 name = "num-traits"
 version = "0.2.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
