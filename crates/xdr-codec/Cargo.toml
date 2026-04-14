@@ -1,0 +1,12 @@
+[package]
+name = "xdr-codec"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bytes = { workspace = true }
+thiserror = { workspace = true }
+xdr-derive = { path = "../xdr-derive" }
+
+[dev-dependencies]
+proptest = { workspace = true }
